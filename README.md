@@ -1,6 +1,8 @@
 # unmanned-ship-datasheets
 开发无人船过程中参考的传感器手册以及算法资料
 ## 文档说明
+* 开发日志记录了项目从一开始的立项到后面一步步测试成功的大大小小细节。前后由于放弃了旧的姿态算法、选取了新的姿态算法，因此前期关于姿态的说明仅供参考用。
+* 通信协议的部分已摘抄出来，放在该目录下。即：整体框架与通信协议.docx
 * algorithm文件夹内存放无人船涉及的算法资料
   * madgwick_internal_report_withMarginNotes.pdf 为姿态控制算法，即Madgwick的梯度下降算法，强烈推荐
 * sensors-datasheet文件夹内存放传感器的说明书与使用手册
